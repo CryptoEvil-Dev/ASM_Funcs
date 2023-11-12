@@ -1,0 +1,2 @@
+nasm -f win64 -o ASMout.obj
+gcc ASMout.obj ASMout.c -o a.exe
